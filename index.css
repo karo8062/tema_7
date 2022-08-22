@@ -1,0 +1,12 @@
+img {
+  max-width: 100%;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  background-color: white;
+}
